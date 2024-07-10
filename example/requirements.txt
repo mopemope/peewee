@@ -3,3 +3,4 @@ werkzeug
 jinja2
 gunicorn
 -e git+git@github.com:coleifer/peewee.git#egg=peewee
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
